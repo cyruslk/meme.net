@@ -1,0 +1,27 @@
+.memeContainer {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+}
+
+.textTop, .textBottom {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  top: 10px;
+  left: 0;
+}
+
+.textBottom {
+  bottom: 10px;
+  top: auto;
+}

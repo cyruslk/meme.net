@@ -1,0 +1,21 @@
+{
+  "name": "meme-app",
+  "version": "1.0.0",
+  "description": "A Next.js app to create and display meme-like components.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": ["meme", "next.js", "react", "javascript"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {}
+}
