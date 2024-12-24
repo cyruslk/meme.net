@@ -1,27 +1,36 @@
 .memeContainer {
   position: relative;
-  display: inline-block;
+  width: 300px; /* Adjust to desired size */
+  height: 300px;
   margin: 10px;
+  overflow: hidden;
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .image {
-  width: 300px;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.textTop, .textBottom {
+.textTop,
+.textBottom {
   position: absolute;
   width: 100%;
   text-align: center;
+  color: white;
   font-size: 18px;
   font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px 4px black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.textTop {
   top: 10px;
-  left: 0;
 }
 
 .textBottom {
   bottom: 10px;
-  top: auto;
 }
